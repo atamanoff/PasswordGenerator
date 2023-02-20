@@ -5,9 +5,9 @@ import random
 def generator(n):
     s1 = string.ascii_letters
     s2 = string.digits
-    s3 = string.punctuation
+    #s3 = string.punctuation
 
-    final = s1 + s2 + s3
+    final = s1 + s2
 
     l1 = list(final)
     random.shuffle(l1)
